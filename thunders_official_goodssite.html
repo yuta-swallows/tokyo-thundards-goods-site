@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>online_goods_store</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="photos/fabicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="thunders_official_goodssite.html"><img src="photos/logo.png" class="logo"></a>
+        <div>
+            <ul class="header_right_top">
+                <li class="login">
+                    <a href="loin.html">
+                        ログイン
+                    </a>
+                </li>
+                <li class="cart">
+                    <a href="cart.html">
+                        買い物カート
+                    </a>
+                </li>
+                <li class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </li>
+            </ul>
+            <ul class="header_right_bottom">
+                <li><a href="new.html">新商品</a></li>
+                <li><a href="recomend.html">オススメ</a></li>
+                <li><a href="player/html">選手別</a></li>
+                <li><a href="uniform.html">ユニホーム</a></li>
+            </ul>
+        </div>
+
+        <div id="mask"></div>
+    </header>
+
+
+    <section id="mainvisual">
+        <ul class="slide_items">
+            <li><img src="photos/mainvisual_1.png"></li>
+            <li><img src="photos/mainvisual_2.png"></li>
+            <li><img src="photos/mainvisual_3.png"></li>
+        </ul>
+    </section>
+
+    <section id="side-bar">
+            <form action="/search" method="get">
+                <input type="search" id="search-box" name="q" placeholder="キーワードで検索">
+            </form>
+
+            <ul>
+                <h2>商品別</h2>
+                <li><a href="uniform.html">ユニホーム</a></li>
+                <li><a href="goods.html">応援グッズ</a></li>
+                <li><a href="aparel.html">アパレル</a></li>
+
+            </ul>
+            <ul>
+                <h2>選手別</h2>
+                <li>
+                    <div class="select-box">
+                        <select name="pitcer">
+                            <option value="投手">投手</option>
+                            <option value="東野健太">東野健太</option>
+                            <option value="マイク・デービス">マイク・デービス</option>
+                            <option value="佐々木 亮">佐々木 亮</option>
+                            <option value="黒田 剛">黒田 剛</option>
+                            <option value="高山 拓海">高山 拓海</option>
+                            <option value="ラファエル・ゴンザレス">ラファエル・ゴンザレス</option>
+                            <option value="加藤 翔">加藤 翔</option>
+                            <option value="松本 大輔">松本 大輔</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-box">
+                        <select name="infielder">
+                            <option value="内野手">内野手</option>
+                            <option value="森川 大地">森川 大地</option>
+                            <option value="小林 隼人">小林 隼人</option>
+                            <option value="佐藤 竜也">佐藤 竜也</option>
+                            <option value="井上 浩二">井上 浩二</option>
+                            <option value="坂本 拓也">坂本 拓也</option>
+                            <option value="ラカルロス・ロペス">ラカルロス・ロペス</option>
+                            <option value="吉田 誠">吉田 誠</option>
+                            <option value="中島 翼">中島 翼</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-box"><select name="outfielder">
+                            <option value="外野手">外野手</option>
+                            <option value="鈴木 翔太">鈴木 翔太</option>
+                            <option value="ジョシュ・ミラー">ジョシュ・ミラー</option>
+                            <option value="高橋 陽介">高橋 陽介</option>
+                            <option value="川村 大輔">川村 大輔</option>
+                            <option value="エリック・ブラウン">エリック・ブラウン</option>
+                            <option value="野村 和也">野村 和也</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <h2>注目アイテム</h2>
+                <li><a href="new.html">新着アイテム</a></li>
+                <li><a href="limited.html">限定商品</a></li>
+                <li><a href="sale.html"></a>セール品</li>
+            </ul>
+
+
+    </section>
+
+    <main>
+        <section id="news">
+            <h1>NEWS</h1>
+            <dl>
+                <dd>2025.08.21</dd>
+                <dt>新商品発売開始</dt>
+                <dd>2025.08.21</dd>
+                <dt>松本大輔投手の初勝利記念グッズの販売を開始</dt>
+                <dd>2025.08.24</dd>
+                <dt>新商品発売開始</dt>
+            </dl>
+        </section>
+
+        <section id="new-product">
+            <h1>新商品</h1>
+            <div class="item-content">
+                <div class="item-list">
+                    <a href="uniform.html">
+                        <img src="photos/main_uniform.png">
+                        <p>¥9000</p>
+                        <p>レプリカユニホーム（ホーム）</p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="taol.html">
+                        <img src="photos/taol.png">
+                        <p>¥2000</p>
+                        <p>フェイスタオル </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="cap.html">
+                        <img src="photos/cap.png">
+                        <p>¥3500</p>
+                        <p>帽子 </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="poach.html">
+                        <img src="photos/poach.png">
+                        <p>¥3000</p>
+                        <p>ポーチ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="umbrella.html">
+                        <img src="photos/umbrella.png">
+                        <p>¥2200</p>
+                        <p>傘 </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="subuniform.html">
+                        <img src="photos/subuniform.png">
+                        <p>¥9000</p>
+                        <p>レプリカユニホーム（ビジター）</p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="mascot.html">
+                        <img src="photos/keyholder.png">
+                        <p>¥500</p>
+                        <p>キーホルダー</p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="t-shirt.html">
+                        <img src="photos/tshirt.png">
+                        <p>¥4000</p>
+                        <p>Tシャツ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="utiwa.html">
+                        <img src="photos/utiwa.png">
+                        <p>¥4000</p>
+                        <p>Tシャツ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="light.html">
+                        <img src="photos/light.png">
+                        <p>¥1000</p>
+                        <p>ペンライト </p>
+                    </a>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="new-item.html">もっと見る<span>&gt</span></a>
+            </div>
+        </section>
+
+        <section id="ranking">
+            <h1>ランキング</h1>
+            <div class="item-content">
+                <div class="item-list">
+                    <a href="uniform-home.html">
+                        <h2>Ranking1</h2>
+                        <img src="photos/main_uniform.png">
+                        <p>¥9000</p>
+                        <p>レプリカユニホーム（ホーム）</p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="taol.html">
+                        <h2>Ranking2</h2>
+                        <img src="photos/taol2.png">
+                        <p>¥2000</p>
+                        <p>フェイスタオル </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="parker.html">
+                        <h2>Ranking3</h2>
+                        <img src="photos/jacket.png">
+                        <p>¥9000</p>
+                        <p>ジャケット </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="shorudabag.html">
+                        <h2>Ranking4</h2>
+                        <img src="photos/shorudabag.png">
+                        <p>¥4000</p>
+                        <p>ショルダーバッグ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="cup.html">
+                        <h2>Ranking5</h2>
+                        <img src="photos/cup.png">
+                        <p>¥1500</p>
+                        <p>タンブラー</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommend">
+            <h1>オススメ商品</h1>
+            <div class="item-content">
+                <div class="item-list">
+                    <a href="uniform.html">
+                        <img src="photos/main_uniform.png">
+                        <p>¥9000</p>
+                        <p>レプリカユニホーム（ホーム）</p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="mascot.html">
+                        <img src="photos/mascot.png">
+                        <p>¥4000</p>
+                        <p>ぬいぐるみ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="parker.html">
+                        <img src="photos/parker.png">
+                        <p>¥6000</p>
+                        <p>パーカー </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="poach.html">
+                        <img src="photos/poach.png">
+                        <p>¥3000</p>
+                        <p>ポーチ </p>
+                    </a>
+                </div>
+                <div class="item-list">
+                    <a href="umbrella.html">
+                        <img src="photos/megaphone.png">
+                        <p>¥4000</p>
+                        <p>メガホン</p>
+                    </a>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="recommend.html">もっと見る<span>&gt</span></a>
+            </div>
+        </section>
+
+        <section id="category">
+            <h1>商品カテゴリー</h1>
+            <div class="category-content">
+                <div class="category-list">
+                    <a href="uniform.html">
+                        <img src="photos/icon/uniform.png">
+                        <p>ユニホーム</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="taol.html">
+                        <img src="photos/icon/taol.png">
+                        <p>タオル</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="aparel.html">
+                        <img src="photos/icon/aparel.png">
+                        <p>アパレル</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="goods.html">
+                        <img src="photos/icon/goods.png">
+                        <p>グッズ</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="komono.html">
+                        <img src="photos/icon/komono.png">
+                        <p>小物</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="bag.html">
+                        <img src="photos/icon/bag.png">
+                        <p>バッグ</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="new.html">
+                        <img src="photos/icon/new.png">
+                        <p>新商品</p>
+                    </a>
+                </div>
+                <div class="category-list">
+                    <a href="limited.html">
+                        <img src="photos/icon/limited.png">
+                        <p>限定商品</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tokushu">
+            <h1>特集</h1>
+            <div class="tokushu-content">
+                <a href="tokushu-1">
+                    <img src="photos/tokushu.png">
+                </a>
+                <a href="tokushu-2">
+                    <img src="photos/tokushu2.png">
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p class="page-top"><a href="#">ページの先頭へ&nbsp;<span><img src="photos/arrow-up.png"
+                            class="arrow-up"></span></a></p>
+            <div class="footer-content">
+                <div class="footer-list">
+                    <p>カスタマーサービス</p>
+                    <ul>
+                        <li><a href="#">ヘルプ</a></li>
+                        <li><a href="#">よくある質問</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>お買い物について</p>
+                    <ul>
+                        <li><a href="#">商品の発送について</a></li>
+                        <li><a href="#">返金・交換について</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>会員ログイン</p>
+                    <ul>
+                        <li><a href="#">会員について</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>SNS</p>
+                    <ul>
+                        <li><a href="#">X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

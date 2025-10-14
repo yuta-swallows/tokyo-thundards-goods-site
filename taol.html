@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>online_goods_store</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="photos/fabicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="thunders_official_goodssite.html"><img src="photos/logo.png" class="logo"></a>
+        <div>
+            <ul class="header_right_top">
+                <li class="login">
+                    <a href="loin.html">
+                        ログイン
+                    </a>
+                </li>
+                <li class="cart">
+                    <a href="cart.html">
+                        買い物カート
+                    </a>
+                </li>
+                <li class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </li>
+            </ul>
+            <ul class="header_right_bottom">
+                <li><a href="new.html">新商品</a></li>
+                <li><a href="recomend.html">オススメ</a></li>
+                <li><a href="player/html">選手別</a></li>
+                <li><a href="uniform.html">ユニホーム</a></li>
+            </ul>
+        </div>
+
+        <div id="mask"></div>
+    </header>
+
+    <section id="side-bar-fixed">
+        <form>
+            <input type="search" id="search-box" name="q" placeholder="キーワードで検索">
+        </form>
+
+        <ul>
+            <h2>商品別</h2>
+            <li><a href="uniform.html">ユニホーム</a></li>
+            <li><a href="goods.html">応援グッズ</a></li>
+            <li><a href="aparel.html">アパレル</a></li>
+
+        </ul>
+        <ul>
+            <h2>選手別</h2>
+            <li>
+                <div class="select-box">
+                    <select name="pitcer">
+                        <option value="投手">投手</option>
+                        <option value="東野健太">東野健太</option>
+                        <option value="マイク・デービス">マイク・デービス</option>
+                        <option value="佐々木 亮">佐々木 亮</option>
+                        <option value="黒田 剛">黒田 剛</option>
+                        <option value="高山 拓海">高山 拓海</option>
+                        <option value="ラファエル・ゴンザレス">ラファエル・ゴンザレス</option>
+                        <option value="加藤 翔">加藤 翔</option>
+                        <option value="松本 大輔">松本 大輔</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="select-box">
+                    <select name="infielder">
+                        <option value="内野手">内野手</option>
+                        <option value="森川 大地">森川 大地</option>
+                        <option value="小林 隼人">小林 隼人</option>
+                        <option value="佐藤 竜也">佐藤 竜也</option>
+                        <option value="井上 浩二">井上 浩二</option>
+                        <option value="坂本 拓也">坂本 拓也</option>
+                        <option value="ラカルロス・ロペス">ラカルロス・ロペス</option>
+                        <option value="吉田 誠">吉田 誠</option>
+                        <option value="中島 翼">中島 翼</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="select-box">
+                    <select name="outfielder">
+                        <option value="外野手">外野手</option>
+                        <option value="鈴木 翔太">鈴木 翔太</option>
+                        <option value="ジョシュ・ミラー">ジョシュ・ミラー</option>
+                        <option value="高橋 陽介">高橋 陽介</option>
+                        <option value="川村 大輔">川村 大輔</option>
+                        <option value="エリック・ブラウン">エリック・ブラウン</option>
+                        <option value="野村 和也">野村 和也</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <h2>注目アイテム</h2>
+            <li><a href="new.html">新着アイテム</a></li>
+            <li><a href="limited.html">限定商品</a></li>
+            <li><a href="sale.html"></a>セール品</li>
+        </ul>
+    </section>
+
+    <main>
+
+        <div class="product-page">
+            <div class="product-viewer">
+                <div class="main-image-display">
+                    <img src="photos/taol.png" id="main-product-image">
+                </div>
+                <div class="thumbnail-gallery">
+                    <img src="photos/taol.png" class="thumbnail" data-full-image="photos/taol.png" alt="商品画像１">
+                    <img src="photos/taol_back.png" class="thumbnail" data-full-image="photos/taol_back.png"
+                        alt="商品画像2">
+                </div>
+            </div>
+
+            <div class="product-detail">
+                <h1>東京サンダース&nbsp;フェイスタオル</h1>
+                <p>¥2000</p>
+                <ul>
+                    <li>
+                        <div class="select-box">
+                            <select name="number">
+                                <option value="注文数">注文数を選択してください</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="cart-button">
+                    <a href="cart.html">カートへ入れる</a>
+                </div>
+
+                <p class="product-explain">
+                    商品説明<br>
+                    東京サンダースの熱狂的な応援には欠かせない、チームカラーのネイビーと稲妻をイメージしたイエロー（ロゴ）を基調としたマフラータオルです！<br>
+                    チームロゴが力強くデザインされており、スタンドで掲げればサンダースファンの一体感がスタジアム全体に響き渡ります。試合の興奮で汗を拭くのはもちろん、ホームランや勝利の際には、頭上に掲げて勝利の喜びを分かち合いましょう！<br>
+                    素材は肌触りの良い上質な綿100%を使用。応援の熱気にも負けない高い吸水性と耐久性を兼ね備えています。<br>
+                    2025年シーズンを共に戦う、全てのサンダースファン必携のアイテムです。スタジアムはもちろん、ご自宅での観戦やスポーツ、レジャーなど、様々なシーンでご活用ください。<br>
+                </p>
+
+                <p class="product-specification">
+                    商品仕様<br>
+                    素材: 綿100%<br>
+                    サイズ展開: 約 20cm &times; 110cm <br>
+                    カラー: ネイビー、ダークネイビー、イエロー、ホワイト
+                </p>
+
+                <p class="product-number">
+                    商品番号<br>002
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p class="page-top"><a href="#">ページの先頭へ<span><img src="photos/arrow-up.png" class="arrow-up"></span></a></p>
+            <div class="footer-content">
+                <div class="footer-list">
+                    <p>カスタマーサービス</p>
+                    <ul>
+                        <li><a href="#">ヘルプ</a></li>
+                        <li><a href="#">よくある質問</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>お買い物について</p>
+                    <ul>
+                        <li><a href="#">商品の発送について</a></li>
+                        <li><a href="#">返金・交換について</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>会員ログイン</p>
+                    <ul>
+                        <li><a href="#">会員について</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p>SNS</p>
+                    <ul>
+                        <li><a href="#">X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
