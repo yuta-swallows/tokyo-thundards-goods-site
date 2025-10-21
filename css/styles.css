@@ -24,6 +24,11 @@ select {
   width: 100%;
   padding-right: 4px;
   appearance: none;
+  color: #000;
+}
+
+option{
+    color: #000;
 }
 
 .select-box{
