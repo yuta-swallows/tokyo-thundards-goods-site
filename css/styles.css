@@ -269,7 +269,6 @@ main section h1{
 
 .item-list p{
     padding-inline: 8px;
-    font-size: 16px;
 }
 
 .item-list p:first-of-type{
@@ -623,12 +622,21 @@ main{margin-left: 0;
 }
 
 @media (max-width:500px){
+
+    body{
+    font-size: 12px;
+    }
+
     .item-content{
     grid-template-columns: repeat(2,1fr);
     }
 
     .category-content{
     grid-template-columns: repeat(2,1fr);
+    }
+
+    .view-more{
+        width: 100px;
     }
 
     .logo{
@@ -652,5 +660,60 @@ main{margin-left: 0;
 
     .product-detail{
         width: 100%;
+    }
+}
+
+@media (max-width:400px){
+    main section h1{
+        font-size: 24px;
+    }
+
+    .login, .cart{
+    width: 64px;
+    font-size: 8px;
+    margin-block: 36px;
+    line-height: 52px;
+    }
+
+    .cart{
+        margin-right: 60px;
+    }
+
+    .hamburger {
+    width: 48px;
+    height: 48px;
+    margin-block: 36px;
+    }
+
+    .hamburger span {
+    width: 30px;
+    }
+
+    .hamburger span:nth-child(1) {
+    top: 10px;
+    }
+
+    .hamburger span:nth-child(2) {
+    top: 22px;
+    }
+
+    .hamburger span:nth-child(3) {
+    bottom: 10px;
+    }
+
+    .open .hamburger span:nth-child(1) {
+    transform: translateY(12.5px) rotate(-45deg);
+    }
+
+    .open .hamburger span:nth-child(3) {
+    transform: translateY(-12.5px) rotate(45deg);
+    }
+
+    #news dd{
+    width: 30%;
+    }
+
+    #news dt{
+    width: 70%;
     }
 }
