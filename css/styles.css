@@ -23,6 +23,7 @@ section{
 select {
   width: 100%;
   padding-right: 4px;
+  appearance: none;
 }
 
 .select-box{
